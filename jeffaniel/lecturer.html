@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecturer Dashboard - Lincoln Hub</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow">
+        <div class="container">
+            <h1 class="navbar-brand mb-0 h1">Lecturer Dashboard</h1>
+            <div class="d-flex align-items-center">
+                <a href="profile.html" class="me-3"><i class="fas fa-user"></i></a>
+                <a href="../logout.html" class="btn btn-danger">Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    
+    <div class="container py-4">
+
+        <div class="row mb-4">
+            <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <span class="text-secondary fs-4 fw-bold">
+                            <a href="profile.html" class="text-decoration-none">Welcome, Jeffaniel</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title h5">Assigned Courses</h3>
+                        <p class="display-6 text-primary mb-0">4</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title h5">Departments</h3>
+                        <p class="display-6 text-success mb-0">1</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="card mb-4">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h2 class="card-title h4">My Courses</h2>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Code</th>
+                                <th>Name</th>
+                                <th>Semester</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>CSE203</td>
+                                <td>Operating Systems</td>
+                                <td>2</td>
+                                <td>
+                                    <button class="btn btn-link text-primary p-0 me-2" onclick="location.href='students.html?course_id=115&semester=2'">
+                                        <i class="fas fa-users" title="View Students"></i>
+                                    </button>
+                                    <button class="btn btn-link text-success p-0 me-2" onclick="location.href='assignments.html?course_id=115&semester=2'">
+                                        <i class="fas fa-tasks" title="Assignments"></i>
+                                    </button>
+                                    <button class="btn btn-link text-purple p-0" onclick="location.href='resources.html?course_id=115&semester=2'">
+                                        <i class="fas fa-book" title="Resources"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>CSE203</td>
+                                <td>Operating Systems</td>
+                                <td>2</td>
+                                <td>
+                                    <button class="btn btn-link text-primary p-0 me-2" onclick="location.href='students.html?course_id=115&semester=2'">
+                                        <i class="fas fa-users" title="View Students"></i>
+                                    </button>
+                                    <button class="btn btn-link text-success p-0 me-2" onclick="location.href='assignments.html?course_id=115&semester=2'">
+                                        <i class="fas fa-tasks" title="Assignments"></i>
+                                    </button>
+                                    <button class="btn btn-link text-purple p-0" onclick="location.href='resources.html?course_id=115&semester=2'">
+                                        <i class="fas fa-book" title="Resources"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>CSE203</td>
+                                <td>Operating Systems</td>
+                                <td>2</td>
+                                <td>
+                                    <button class="btn btn-link text-primary p-0 me-2" onclick="location.href='students.html?course_id=115&semester=2'">
+                                        <i class="fas fa-users" title="View Students"></i>
+                                    </button>
+                                    <button class="btn btn-link text-success p-0 me-2" onclick="location.href='assignments.html?course_id=115&semester=2'">
+                                        <i class="fas fa-tasks" title="Assignments"></i>
+                                    </button>
+                                    <button class="btn btn-link text-purple p-0" onclick="location.href='resources.html?course_id=115&semester=2'">
+                                        <i class="fas fa-book" title="Resources"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>CSE203</td>
+                                <td>Operating Systems</td>
+                                <td>2</td>
+                                <td>
+                                    <button class="btn btn-link text-primary p-0 me-2" onclick="location.href='students.html?course_id=115&semester=2'">
+                                        <i class="fas fa-users" title="View Students"></i>
+                                    </button>
+                                    <button class="btn btn-link text-success p-0 me-2" onclick="location.href='assignments.html?course_id=115&semester=2'">
+                                        <i class="fas fa-tasks" title="Assignments"></i>
+                                    </button>
+                                    <button class="btn btn-link text-purple p-0" onclick="location.href='resources.html?course_id=115&semester=2'">
+                                        <i class="fas fa-book" title="Resources"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="row mb-4">
+            <div class="col-md-4 mb-3">
+                <div class="card action-card" onclick="location.href='attendance.html'">
+                    <div class="card-body text-center">
+                        <i class="fas fa-clipboard-check icon-xl text-primary mb-3"></i>
+                        <h3 class="h5">Attendance</h3>
+                        <p class="text-muted">Monitor class attendance</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card action-card" onclick="location.href='assignments.html'">
+                    <div class="card-body text-center">
+                        <i class="fas fa-tasks icon-xl text-success mb-3"></i>
+                        <h3 class="h5">Assignments</h3>
+                        <p class="text-muted">Manage assignments and grading</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card action-card" onclick="location.href='resources.html'">
+                    <div class="card-body text-center">
+                        <i class="fas fa-book icon-xl text-purple mb-3"></i>
+                        <h3 class="h5">Course Resources</h3>
+                        <p class="text-muted">Upload and manage materials</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <div class="card action-card" onclick="location.href='message.html'">
+                    <div class="card-body text-center">
+                        <i class="fas fa-comments icon-xl text-warning mb-3"></i>
+                        <h3 class="h5">Messages</h3>
+                        <p class="text-muted">Communicate with students and colleagues</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <div class="card action-card" onclick="location.href='announcements.html'">
+                    <div class="card-body text-center">
+                        <i class="fas fa-bullhorn icon-xl text-danger mb-3"></i>
+                        <h3 class="h5">Announcements</h3>
+                        <p class="text-muted">Post important updates</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="navigationsd">
+                    <a href="dashboard.html">next</a>
+                    <a href="index.html">middle</a>
+                    <a href="lecturer.html">last</a>
+                </div>
+
+    <footer class="bg-white shadow mt-auto py-3">
+        <div class="container">
+            <p class="text-center text-muted mb-0">
+                © 2025 Lincoln Hub - Lecturer Portal
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
